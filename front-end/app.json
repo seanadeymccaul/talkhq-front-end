@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "TalkHQ",
+    "slug": "talkhqapp",
+    "version": "1.0.0",
+    "sdkVersion": "45.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/applogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/applogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.talkhq.talkhq"
+    },
+    "android": {
+      "package": "com.talkhq.talkhq",
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/applogo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b4e28c2-4a19-4ab1-94e7-649fafaefa17"
+      }
+    }
+  }
+}
